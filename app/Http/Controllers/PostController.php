@@ -57,7 +57,7 @@ class PostController extends Controller
 
         $bindings = [
             'previous_post' => Post::where('status', 'published')->where('featured', 'yes')->where('id', '<', $post->id)->orderBy('id', 'desc')->first(),
-            'next_post' => Post::where('status', 'published')->where('featured', 'yes')->where('id', '>', $post->id)->orderBy('id', 'desc')->first(),
+            'next_post' => Post::where('status', 'published')->where('featured', 'yes')->where('id', '>', $post->id)->orderBy('id', 'asc')->first(),
             'categories' => Category::where('status', 'published')->where('featured', 'yes')->get(),
             'tags' => Tag::where('status', 'published')->where('featured', 'yes')->get(),
             'author_bio' => UserSocialProfile::where('id', $post->user_id)->first(),
