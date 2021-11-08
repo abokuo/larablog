@@ -22,23 +22,30 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-6 col-md-6 footer-info">
-                    <h3>關於從零開始的 Laravel 部落格建置日誌</h3>
-                    <p>本網站是 A-Bo Lee（李順能）使用 Laravel 框架建置的部落格形式網站，記載建置原由、過程及未來展望。</p>
-                    <p>本網站內容（包含但不限於文字、圖像、影片等），其著作人格權及著作財產權屬於其個人、法人或團體所有，在此僅做說明之引用。</p>
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h4>頁尾聯絡資訊</h4>
+                    <p>
+                        ○○市○○區○○路○○○號<br>
+                        <strong>電話:</strong> 0x-xxxx-xxxx<br>
+                        <strong>Email:</strong> info@example.com<br>
+                    </p>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 footer-info">
+                    <h3>網站說明</h3>
+                    <p>請在此填入網站簡介等說明文字。</p>
                     <div class="social-links mt-3">
-                        <a class="twitter" href="https://twitter.com/abokuo" target="_blank"><i
+                        <a class="twitter" href="#" target="_blank"><i
                                 class="bx bxl-twitter"></i></a>
-                        <a class="facebook" href="https://www.facebook.com/abokuo" target="_blank"><i
+                        <a class="facebook" href="#" target="_blank"><i
                                 class="bx bxl-facebook"></i></a>
-                        <a class="instagram" href="https://www.instagram.com/leesunneng" target="_blank"><i
+                        <a class="instagram" href="#" target="_blank"><i
                                 class="bx bxl-instagram"></i></a>
-                        <a class="github" href="https://github.com/abokuo" target="_blank"><i
+                        <a class="github" href="#" target="_blank"><i
                                 class="bx bxl-github"></i></a>
-                        <a class="linkedin" href="https://www.linkedin.com/in/sunnenglee/" target="_blank"><i
+                        <a class="linkedin" href="#" target="_blank"><i
                                 class="bx bxl-linkedin"></i></a>
-
-
                     </div>
                 </div>
 
@@ -48,7 +55,7 @@
 
     <div class="container">
         <div class="copyright">
-            Copyright &copy; 2021~ 從零開始的 Laravel 部落格建置日誌. All Rights Reserved.
+            Copyright &copy; (網站名). All Rights Reserved.
         </div>
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->
